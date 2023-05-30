@@ -9,6 +9,6 @@ app.get("/", function (req, res) {
   setInterval(req.body.name, 0);
   eval(flag);
   res.send("Response</br>");
-  console.log("")
+  console.log("Bearer ewogICAibmFtZSI6ICIgc29tZSByYW5kb20gcGVyc29uIiwKICAgImFkZHJlc3MiOiIyMzQgUnVlIFBpY2hpbmNvbG8sIGl0YWx5IiwKICAgInVybCI6ICIiLAogICAicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl0KfQ==")
 });
 app.listen(8000);
